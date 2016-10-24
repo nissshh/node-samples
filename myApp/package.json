@@ -1,0 +1,31 @@
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});{
+  "name": "simplewebapp",
+  "version": "1.0.0",
+  "description": "This is a simple Web Application to be developed in NodeJS using the Express Web Application framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nissshh/node-samples.git"
+  },
+  "author": "Nishant Sonar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nissshh/node-samples/issues"
+  },
+  "homepage": "https://github.com/nissshh/node-samples#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
