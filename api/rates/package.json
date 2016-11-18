@@ -1,0 +1,19 @@
+{
+  "name": "rates",
+  "version": "1.0.0",
+  "description": "Rates based API that provides rates as service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nishant Sonar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.6.8",
+    "pug": "^2.0.0-beta6"
+  }
+}

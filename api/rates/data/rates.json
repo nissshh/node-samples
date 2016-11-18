@@ -1,0 +1,32 @@
+{
+    "rates": [
+        {
+            "ccy": "USD",
+            "xccy": "GBP",
+            "rate": "1.25",
+            "xrate": "0.8",
+            "margin": "0.01"
+        },
+        {
+            "ccy": "USD",
+            "xccy": "JPY",
+            "rate": "1000",
+            "xrate": "0.1",
+            "margin": "0.01"
+        },
+        {
+            "ccy": "USD",
+            "xccy": "EUR",
+            "rate": "1.63",
+            "xrate": "0.65",
+            "margin": "0.01"
+        },
+        {
+            "ccy": "USD",
+            "xccy": "INR",
+            "rate": "65",
+            "xrate": "0.66",
+            "margin": "0.01"
+        }
+    ]
+}
